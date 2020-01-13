@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "tsc && mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
+}

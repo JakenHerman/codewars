@@ -1,0 +1,1 @@
+export const isIsogram = (str: string) => new Set(str.toLowerCase().split('')).size === str.length;
