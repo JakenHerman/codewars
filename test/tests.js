@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var chai_1 = require("chai");
 var index_1 = require("../index");
-describe("isIsogram", function () {
-    it("All tests passing", function () {
+describe("Testing isIsogram", function () {
+    it("Should return true if all given strings are isograms", function () {
         chai_1.assert.equal(index_1.isIsogram("Dermatoglyphics"), true);
         chai_1.assert.equal(index_1.isIsogram("isogram"), true);
         chai_1.assert.equal(index_1.isIsogram("aba"), false, "same chars may not be adjacent");
