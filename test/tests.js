@@ -12,3 +12,10 @@ describe("Testing isIsogram", function () {
         chai_1.assert.equal(index_1.isIsogram(""), true, "an empty string is a valid isogram");
     });
 });
+describe("Testing endsWith", function () {
+    it("Should test to see if left-side parameters end with left-side parameters", function () {
+        chai_1.assert.equal(index_1.endsWith('abcde', 'cde'), true);
+        chai_1.assert.equal(index_1.endsWith('abcde', 'abc'), false);
+        chai_1.assert.equal(index_1.endsWith('abc', ''), true);
+    });
+});
